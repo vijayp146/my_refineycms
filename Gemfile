@@ -23,7 +23,7 @@ gem 'jquery-rails', '~> 2.0.0'
 
  gem "mysql", :group => :development
  gem "pg", :group => :production
- gem 'postgres-pr'
+ gem 'postgres-pr', :group => :production
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
