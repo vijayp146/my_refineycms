@@ -70,6 +70,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.19)
     multi_json (1.4.0)
+    mysql (2.9.0-x86-mingw32)
     mysql2 (0.3.11-x86-mingw32)
     orm_adapter (0.0.7)
     paper_trail (2.6.3)
@@ -178,6 +179,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails (~> 2.0.0)
+  mysql
   mysql2
   pg
   rails (= 3.2.9)
