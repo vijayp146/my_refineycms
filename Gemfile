@@ -7,7 +7,7 @@ gem 'rails', '3.2.9'
 
 #gem 'sqlite3'
 
-gem "mysql"
+gem "mysql2"
 
 
 # Gems used only for assets and not required
