@@ -7,7 +7,9 @@ gem 'rails', '3.2.9'
 
 #gem 'mysql2'
 
- gem 'mysql2', '~> 0.3.7', :group => :production
+ gem 'mysql2', '< 0.3' # as stated above
+
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -22,6 +24,11 @@ end
 
 gem 'jquery-rails', '~> 2.0.0'
 
+group :development do
+  gem "capistrano"
+  gem "capistrano-ext"
+  gem "rdoc"
+end
 
 
 
