@@ -27,3 +27,11 @@ production:
   password:
   timeout: 5000
   host: 127.0.0.1
+
+Production:
+  adapter: mysql2
+  database: cms
+  username: deploy
+  password: baruvijay77$
+  host: ec2-107-20-171-176.compute-1.amazonaws.com
+  reconnect: true
