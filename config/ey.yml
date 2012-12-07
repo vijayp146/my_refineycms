@@ -25,10 +25,10 @@
 environments:
   my_refineycms:
     branch: master
+    default: true
     migrate: true
     migration_command: rake db:setup
     bundle_without: development test
     ignore_database_adapter_warning: true
-    precompile_assets: false
+    precompile_assets: true
     all_releases: true
-
