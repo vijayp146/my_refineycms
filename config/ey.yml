@@ -26,8 +26,10 @@ environments:
   prodution:
     migrate: true
     migration_command: rake db:setup
-  staging:
+    precompile_assets: true
+  my_refineycms:
     migrate: true
     migration_command: rake db:setup
     bundle_without: development test
     ignore_database_adapter_warning: true
+    precompile_assets: true
