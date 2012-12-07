@@ -27,7 +27,7 @@ production:
   reconnect: true
 
 staging:
-  adapter: mysql2
+  adapter: mysql
   database: my_refineycms
   username: deploy
   password: hPkG3EAd4N
