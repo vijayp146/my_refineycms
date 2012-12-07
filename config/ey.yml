@@ -23,13 +23,12 @@
 #
 ---
 environments:
-  prodution:
-    migrate: true
-    migration_command: rake db:setup
-    precompile_assets: true
   my_refineycms:
+    branch: master
     migrate: true
     migration_command: rake db:setup
     bundle_without: development test
     ignore_database_adapter_warning: true
-    precompile_assets: true
+    precompile_assets: false
+    all_releases: true
+
