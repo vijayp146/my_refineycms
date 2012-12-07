@@ -7,7 +7,7 @@ gem 'rails', '3.2.9'
 
 #gem 'sqlite3'
 
-gem 'mysql2', '~> 0.3.7'
+gem 'mysql' #', '~> 0.3.7'
 
 
 
